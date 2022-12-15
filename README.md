@@ -17,5 +17,6 @@ EagleRock is a simple dockerized .NET Core 6 application utilizing:
 
 ### Proposed improvements:
  - Global Error handler Example: https://code-maze.com/global-error-handling-aspnetcore/
+ - Use Serilog structured logging system https://serilog.net/
  - Use Protobuf serializer/deserializer and use gRPC for data streaming Example: https://github.com/protobuf-net/protobuf-net https://en.wikipedia.org/wiki/GRPC
  - Submit all received traffic into RabbitMQ message broker. Example: https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html
