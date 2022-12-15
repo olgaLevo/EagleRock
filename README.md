@@ -7,14 +7,15 @@ EagleRock is a simple dockerized .NET Core 6 application utilizing:
  
 ![image](https://user-images.githubusercontent.com/50306019/207755123-79d044fe-7345-4b8a-b689-42dfed96de4b.png)
 
-###The API consists of two points:
-![image](https://user-images.githubusercontent.com/50306019/207754103-8d50af80-0517-4cea-bbf2-fa93b41e193a.png)
+### The API consists of two points:
 
  - GetAll API point retrieves all cached records from active EagleBots. The call can be extended to get data from the cache + database 
  - Post - revieves, validates and saves the traffic records from EagleBots
 
+![image](https://user-images.githubusercontent.com/50306019/207754103-8d50af80-0517-4cea-bbf2-fa93b41e193a.png)
 
-###Proposed improvements:
+
+### Proposed improvements:
  - Global Error handler Example: https://code-maze.com/global-error-handling-aspnetcore/
- - Use Protobuf serializer/deserializer Example: https://github.com/protobuf-net/protobuf-net
+ - Use Protobuf serializer/deserializer and use gRPC for data streaming Example: https://github.com/protobuf-net/protobuf-net https://en.wikipedia.org/wiki/GRPC
  - Submit all received traffic into RabbitMQ message broker. Example: https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html
